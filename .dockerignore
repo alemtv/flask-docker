@@ -1,6 +1,5 @@
 **/__pycache__
 **/.venv
-**/flask-docker-v1
 **/.classpath
 **/.dockerignore
 **/.env
@@ -24,5 +23,9 @@
 **/obj
 **/secrets.dev.yaml
 **/values.dev.yaml
+**/Include
+**/Lib
+**/Scripts
+pyvenv.cfg
 LICENSE
 README.md

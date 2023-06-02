@@ -16,6 +16,8 @@ eggs/
 .eggs/
 lib/
 lib64/
+include/
+Scripts/
 parts/
 sdist/
 var/
@@ -127,8 +129,6 @@ venv/
 ENV/
 env.bak/
 venv.bak/
-flask-docker-v1/
-flask-docker-v1
 .vscode
 
 # Spyder project settings
@@ -156,3 +156,6 @@ dmypy.json
 cython_debug/
 
 postgres-data/
+
+pyvenv.cfg
+flask-docker-v1
