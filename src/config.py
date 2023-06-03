@@ -8,7 +8,7 @@ class DevelopmentConfig(Config):
     DEBUG = True
     # SQLALCHEMY_DATABASE_URI = os.getenv("DEVELOPMENT_DATABASE_URL")
     # todo
-    SQLALCHEMY_DATABASE_URI = 'postgresql+psycopg2://test_user:random_password@localhost:5432/flask-test-db'
+    SQLALCHEMY_DATABASE_URI = 'postgresql+psycopg2://test_user:random_password@postgres:5432/flask-test-db'
 
 class ProductionConfig(Config):
     DEBUG = False

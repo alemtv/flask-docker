@@ -156,6 +156,5 @@ dmypy.json
 cython_debug/
 
 postgres-data/
-
-pyvenv.cfg
 flask-docker-v1
+migrations
