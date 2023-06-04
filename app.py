@@ -10,6 +10,7 @@ def hello():
 
 # Applications Routes
 from src.cars import urls
+from src.makers import urls
 
 if __name__ == "__main__":
     app.run(debug=True)
