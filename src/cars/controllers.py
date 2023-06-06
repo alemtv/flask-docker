@@ -54,4 +54,4 @@ def delete_car_controller(car_id):
     db.session.commit()
 
     response = f'Car with Id {format(car_id)} deleted successfully!'
-    return make_response(jsonify(response), 200)
+    return make_response(jsonify(response), 204)
